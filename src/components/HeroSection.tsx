@@ -1,13 +1,13 @@
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight, Award, Users, Calendar } from "lucide-react";
-import heroImage from "../assets/WhatsApp-Image-2024-02-26-at-06.32.43.webp";
+import heroImage from "../assets/hero.png";
 
 export function HeroSection() {
   return (
     <section 
       id="inicio" 
-      className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center"
+      className="relative min-h-[90vh] bg-cover bg-center bg-no-repeat flex items-center"
       style={{
         backgroundImage: `url('${heroImage}')`
       }}
@@ -28,11 +28,11 @@ export function HeroSection() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="px-8 bg-primary text-white hover:bg-primary/90">
+            <Button size="lg" className=" cursor-pointer px-8 bg-primary text-white hover:bg-primary/90">
               Solicitar Orçamento
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="px-8 border-white text-[rgba(42,68,127,1)] hover:bg-white hover:text-primary">
+            <Button variant="outline" size="lg" className="px-8 border-white text-[rgba(42,68,127,1)] hover:bg-white bg-white hover:text-primary">
               Ver Projetos
             </Button>
           </div>

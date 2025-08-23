@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Home, Building2, Hammer, PaintBucket, Zap, Droplets } from "lucide-react";
+import { Button } from "./ui/button";
 
 const services = [
   {
@@ -37,7 +38,7 @@ const services = [
 export function ServicesSection() {
   return (
     <section id="servicos" className="py-20 bg-slate-50">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl font-bold text-primary">
             Nossos Serviços
@@ -62,6 +63,11 @@ export function ServicesSection() {
               </CardContent>
             </Card>
           ))}
+        </div>
+        <div className="text-center pt-10">
+          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white">
+            Saiba Mais
+          </Button>
         </div>
       </div>
     </section>

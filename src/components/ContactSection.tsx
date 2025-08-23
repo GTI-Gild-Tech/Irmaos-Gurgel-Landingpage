@@ -26,11 +26,11 @@ export function ContactSection() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="grid md:grid-cols-2 gap-4">
-                    <Input placeholder="Seu nome" />
-                    <Input placeholder="Telefone" />
+                    <Input placeholder="Seu nome"  className="bg-slate-100"/>
+                    <Input placeholder="Telefone" className="bg-slate-100" />
                   </div>
-                  <Textarea placeholder="Descreva seu projeto" className="min-h-[120px]" />
-                  <Button className="w-full">
+                  <Textarea placeholder="Descreva seu projeto" className="min-h-[120px] bg-slate-100" />
+                  <Button className="w-full text-white bg-primary hover:bg-primary/90">
                     Enviar Solicitação
                   </Button>
                 </CardContent>

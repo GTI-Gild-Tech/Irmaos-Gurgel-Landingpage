@@ -36,7 +36,7 @@ const projects = [
 export function ProjectsSection() {
   return (
     <section id="projetos" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl font-bold text-primary">
             Projetos Realizados
@@ -56,7 +56,7 @@ export function ProjectsSection() {
                   alt={project.title}
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute top-4 left-4">
+                <div className="absolute top-4 left-4 text-white">
                   <Badge variant="secondary">{project.type}</Badge>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export function ProjectsSection() {
         
         <div className="text-center">
           <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white">
-            Ver Todos os Projetos
+            Ver Mais Projetos
           </Button>
         </div>
       </div>

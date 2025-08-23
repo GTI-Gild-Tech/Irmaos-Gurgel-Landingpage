@@ -1,12 +1,12 @@
-import image_21a19e05cd32951311c7e3d6f65de1526e280a60 from "../assets/WhatsApp-Image-2024-02-26-at-06.32.43.webp";
-import image_2fe295d6d900c02930ed96ab52a2b92a0ee05c84 from "../assets/WhatsApp-Image-2024-02-26-at-06.32.43.webp";
+import image_21a19e05cd32951311c7e3d6f65de1526e280a60 from "../assets/Ativo 4@2x.png";
+import image_2fe295d6d900c02930ed96ab52a2b92a0ee05c84 from "../assets/Ativo 1@2x.png";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Shield, Clock, ThumbsUp, Wrench } from "lucide-react";
 
 export function AboutSection() {
   return (
     <section id="sobre" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="space-y-4">
@@ -46,7 +46,7 @@ export function AboutSection() {
                   <ThumbsUp className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold">Satisfação Total</h3>
-                <p className="text-sm text-gray-600">Atendimento personalizado do início ao fim</p>
+                <p className="text-sm text-gray-600">Atendimento especializado do início até o final</p>
               </div>
               
               <div className="space-y-1">
