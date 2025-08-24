@@ -42,11 +42,11 @@ export function ProjectsSection() {
             Projetos Realizados
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Conheça alguns dos nossos principais projetos e veja a qualidade 
+            Conheça alguns dos nossos principais projetos e veja a qualidade
             que entregamos em cada obra.
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {projects.map((project, index) => (
             <div key={index} className="group">
@@ -70,10 +70,17 @@ export function ProjectsSection() {
             </div>
           ))}
         </div>
-        
+
         <div className="text-center">
-          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white">
-            Ver Mais Projetos
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-primary text-primary hover:bg-primary hover:text-white"
+            asChild
+          >
+            <a href="https://wa.me/5574988472791?text=Olá,%20gostaria%20de%20saber%20mais">
+              Ver Mais Projetos
+            </a>
           </Button>
         </div>
       </div>

@@ -29,12 +29,24 @@ export function Header() {
         </nav>
         
         <div className="flex items-center space-x-4">
-          <Button variant="outline" className="hidden md:inline-flex">
-            Orçamento Grátis
-          </Button>
-          <Button variant="ghost" size="icon" className="md:hidden">
-            <Menu className="h-5 w-5" />
-          </Button>
+         <a
+  href="https://wa.me/5574988472791"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:inline-flex"
+>
+  Orçamento Grátis
+</a>
+
+<a
+  href="https://wa.me/5574988472791"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="md:hidden"
+  aria-label="Abrir menu"
+>
+  <Menu className="h-5 w-5" />
+</a>
         </div>
       </div>
     </header>

@@ -44,11 +44,11 @@ export function ServicesSection() {
             Nossos Serviços
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Oferecemos soluções completas em construção civil, desde o projeto até a entrega final, 
+            Oferecemos soluções completas em construção civil, desde o projeto até a entrega final,
             sempre com a qualidade que você merece.
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
@@ -65,8 +65,19 @@ export function ServicesSection() {
           ))}
         </div>
         <div className="text-center pt-10">
-          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-white">
-            Saiba Mais
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-primary text-primary hover:bg-primary hover:text-white"
+            asChild
+          >
+            <a
+              href="https://wa.me/5574988472791?text=Olá,%20gostaria%20de%20saber%20mais"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Saiba Mais
+            </a>
           </Button>
         </div>
       </div>
