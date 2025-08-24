@@ -1,26 +1,30 @@
 import { Card, CardContent } from "./ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Star } from "lucide-react";
+import User1 from "../assets/user1.jpeg";
+import User2 from "../assets/user2.jpeg";
+import User3 from "../assets/user3.jpeg";
+
 
 const testimonials = [
   {
     name: "Maria Silva",
     role: "Proprietária",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    image: User1,
     content: "Excelente trabalho! A Irmãos Gurgel construiu nossa casa dos sonhos com qualidade excepcional e dentro do prazo. Super recomendo!",
     rating: 5
   },
   {
     name: "João Santos",
     role: "Empresário",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    image: User2,
     content: "Profissionais competentes e honestos. Nossa reforma ficou perfeita e o atendimento foi impecável do início ao fim.",
     rating: 5
   },
   {
     name: "Ana Costa",
     role: "Arquiteta",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+    image: User3,
     content: "Trabalho já com eles há anos. Sempre entregam projetos de alta qualidade e cumprem todos os prazos estabelecidos.",
     rating: 5
   }
