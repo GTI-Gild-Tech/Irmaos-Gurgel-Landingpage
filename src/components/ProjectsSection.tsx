@@ -78,7 +78,7 @@ export function ProjectsSection() {
             className="border-primary text-primary hover:bg-primary hover:text-white"
             asChild
           >
-            <a href="https://wa.me/5574988472791?text=Olá,%20gostaria%20de%20saber%20mais">
+            <a href="https://www.instagram.com/irmaos_gurgel/">
               Ver Mais Projetos
             </a>
           </Button>
